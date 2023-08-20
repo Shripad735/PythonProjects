@@ -1,3 +1,5 @@
 The code imports the time and winsound modules. It then prompts the user to enter a time in the format hr min sec. The user input is then split into three parts and stored in the variables hr, min, and sec. The total number of seconds in the specified time is calculated and a for loop is used to iterate from 1 to the total number of seconds. On each iteration, the current time is printed to the console and the total number of seconds is decremented by 1. If the current number of seconds is divisible by 60, then the minutes are decremented by 1. If the current number of seconds is divisible by 3600, then the hours are decremented by 1. When the total number of seconds reaches 0, the loop is terminated and a message is printed to the console. The winsound module is then used to play a beep sound 10 times.
 
 The time.sleep() function is used to pause the execution of the program for 1 second. This ensures that the timer updates at a steady pace.
+
+project :- [link](https://github.com/Shripad735/PythonProjects/blob/main/Timer%20Using%20Python%20/Timer.py)
